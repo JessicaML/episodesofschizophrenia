@@ -8,8 +8,8 @@
 
 
 body
-{	margin:				20;
-	padding:			20;
+{	margin:				0;
+	padding:			0;
 	font-family: 		'Nova Round', cursive;
 	font-size:			62.5%;
 } 
@@ -67,9 +67,11 @@ section#top {
 	background:			transparent url(bg1.gif) no-repeat top center;
 	background-attachment:fixed;
 
-	height:				1300px;
+	height:				1000px;
 	overflow:			hidden;
 }
+
+
 
 section#top #extraclouds {
 	position:			absolute;
@@ -120,10 +122,11 @@ section#info {
 	position:			relative;
 	background:			grey;
 	width: 100%;
-	height:				400px;
+	height:				100%;
 	color:				#fff;
-	padding-top:		40px;
-	margin:				auto;
+	padding-top:		20px;
+	padding: 20px;
+	margin:				-20px;
 	font-size:			1.4em;
 
 }
@@ -135,15 +138,15 @@ section#info {
 section#info h1 {
 	font-size:			4em;
 	text-transform:		uppercase;
-	margin:				0;
-	padding:			0;
+	margin:				10;
+	padding:			10;
 	text-shadow:		2px 2px 4px #3864ab;
 }
 
 section#info h2 {
 	font-size:			2.7em;
-	margin:				0;
-	padding:			0;
+	margin:				10;
+	padding:			10;
 	text-shadow:		2px 2px 4px #3864ab;	
 }
 
@@ -175,10 +178,10 @@ section#info a:hover
 section#about {
 	position:			relative;
 	background:			#b5ffda;
-	height:				1000px;
+	height:				100%;
 	width: 100%;
 	color:				#fff;
-	padding-top:		40px;
+	padding-top:		0px;
 
 }
 section#about h1 {
