@@ -1,0 +1,227 @@
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+
+body
+{	margin:				20;
+	padding:			20;
+	font-family: 		'Nova Round', cursive;
+	font-size:			62.5%;
+} 
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+section#top {
+	position:			relative;
+	width:				100%;
+	background:			transparent url(bg1.gif) no-repeat top center;
+	background-attachment:fixed;
+
+	height:				1300px;
+	overflow:			hidden;
+}
+
+section#top #extraclouds {
+	position:			absolute;
+	top:				0;
+	left:				0;
+	width:				100%;
+	background:			transparent url(bg1.gif) no-repeat center center;	height:				20z0px;
+}
+
+section#top #boom {
+	position:			absolute;
+	top:				0;
+	left:				0;
+	width:				100%;
+	background:			transparent url(boom.png) no-repeat center center;
+	height:				1200px;
+}
+
+section#top #bits1 {
+	position:			absolute;
+	top:				0;
+	left:				0;
+	width:				100%;
+	background:			transparent url(bits1.png) no-repeat center center;
+	height:				1300px;
+}
+
+section#top #bits2 {
+	position:			absolute;
+	top:				0;
+	left:				0;
+	width:				100%;
+	background:			transparent url(bits2.png) no-repeat center center;
+	height:				600px;
+}
+
+section#top #bits3 {
+	position:			absolute;
+	top:				0;
+	left:				0;
+	width:				100%;
+	background:			transparent url(bits3.png) no-repeat center center;
+	height:				600px;
+}
+
+
+section#info {
+	position:			relative;
+	background:			grey;
+	width: 100%;
+	height:				400px;
+	color:				#fff;
+	padding-top:		40px;
+	margin:				auto;
+	font-size:			1.4em;
+
+}
+
+
+
+
+
+section#info h1 {
+	font-size:			4em;
+	text-transform:		uppercase;
+	margin:				0;
+	padding:			0;
+	text-shadow:		2px 2px 4px #3864ab;
+}
+
+section#info h2 {
+	font-size:			2.7em;
+	margin:				0;
+	padding:			0;
+	text-shadow:		2px 2px 4px #3864ab;	
+}
+
+section#info p {
+	width:				80%;
+	text-align:			justify;
+	line-height:		1.8em;
+	margin:				20px;
+	padding:			20px;
+}
+
+
+
+
+section#info a {
+    color: #b5ffda;
+    text-decoration: none;
+}
+
+
+section#info a:hover 
+{
+     color:#fff; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+section#about {
+	position:			relative;
+	background:			#b5ffda;
+	height:				1000px;
+	width: 100%;
+	color:				#fff;
+	padding-top:		40px;
+
+}
+section#about h1 {
+	font-size:			4em;
+	text-transform:		uppercase;
+	margin:				20px;
+	padding:			20px;
+	text-shadow:		2px 2px 4px #3864ab;
+}
+
+section#about h2 {
+	font-size:			2.7em;
+	margin:				20px;
+	padding:			20px;
+	text-shadow:		2px 2px 4px #3864ab;	
+	margin:				20px;
+	padding:			20px;
+
+}
+
+	section#about p {
+	font-size:			1.4em;
+        width:				80%;
+        color: #3b3b3b;
+	text-align:			justify;
+	line-height:		1.8em;
+		margin:				20px;
+	padding:			20px;
+
+
+}
+
+
+section#about a {
+    color: #3864ab;
+    text-decoration: none;
+}
+
+
+section#about a:hover 
+{
+     color:#fff; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
